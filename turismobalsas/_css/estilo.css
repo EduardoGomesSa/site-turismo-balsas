@@ -1,0 +1,31 @@
+/* Bloco principal do site */
+main{
+    display: block;
+    position: relative;
+    left: 0px;
+    top: 10%;
+    width: 100%;
+    background-color: rgb(253, 253, 253);
+    overflow: hidden;
+}
+/* Bloco da seção de imagem da página principal */
+
+.imagem-principal img{
+    display: block;
+    position: relative;
+    left: 20%;
+    border-radius: 5%;
+    width: 60%;
+    filter: blur(0px);
+    margin: 2% 0% 2% 0%;
+    box-shadow: 5px 2px 2px black;
+}
+/* Bloco da seção do texto da página principal */
+.texto-principal {
+    display: block;
+    position: relative;
+    left: 8%;
+    margin: 20px;
+    text-indent: 30px;
+    width: 80%;
+}

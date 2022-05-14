@@ -15,7 +15,7 @@
         <?php require_once "_issets/cabecalho.php" ?>
         <article class="paginas">
             <div class="esquerda1">
-                <div class="lugar1">
+                <div class="padraoS lugar1">
                     <h1>lugar 1</h1>
                 </div>
                 <div class="lugar2">

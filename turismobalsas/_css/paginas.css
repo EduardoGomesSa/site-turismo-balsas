@@ -14,30 +14,20 @@
     position: relative;
     width: 300px;
     height: 400px;
+    border-radius: 25px;
     background-color: yellow;
 }
-.lugar1{
-    
+.lugar1{  
     float: left;
     padding: 30px;
     margin-right: 150px;
 }
 .lugar2{
-    display: block;
-    position: relative;
     float: right;
-    width: 300px;
-    height: 400px;
-    background-color: rgb(252, 5, 5);
     padding: 30px;
 }
 .lugar3{
-    display: block;
-    position: relative;
     float: right;
-    width: 300px;
-    height: 400px;
-    background-color: rgb(21, 221, 98);
     padding: 30px;
     margin-right: 120px;
 }
@@ -48,31 +38,16 @@
     background-color: greenyellow;
 }
 .lugar4{
-    display: block;
-    position: relative;
     float: left;
-    width: 300px;
-    height: 400px;
-    background-color: rgb(245, 131, 131);
     padding: 30px;
     margin-right: 150px;
 }
 .lugar5{
-    display: block;
-    position: relative;
     float: right;
-    width: 300px;
-    height: 400px;
-    background-color: rgb(219, 155, 72);
     padding: 30px;
 }
 .lugar6{
-    display: block;
-    position: relative;
     float: right;
-    width: 300px;
-    height: 400px;
-    background-color: rgb(100, 72, 199);
     padding: 30px;
     margin-right: 120px;
 }
@@ -83,31 +58,16 @@
     background-color: rgb(223, 75, 186);
 }
 .lugar7{
-    display: block;
-    position: relative;
     float: left;
-    width: 300px;
-    height: 400px;
-    background-color: rgb(75, 218, 236);
     padding: 30px;
     margin-right: 150px;
 }
 .lugar8{
-    display: block;
-    position: relative;
     float: right;
-    width: 300px;
-    height: 400px;
-    background-color: rgb(205, 206, 134);
     padding: 30px;
 }
 .lugar9{
-    display: block;
-    position: relative;
     float: right;
-    width: 300px;
-    height: 400px;
-    background-color: rgb(189, 233, 31);
     padding: 30px;
     margin-right: 120px;
 }
@@ -118,31 +78,16 @@
     background-color: greenyellow;
 }
 .lugar10{
-    display: block;
-    position: relative;
     float: left;
-    width: 300px;
-    height: 400px;
-    background-color: rgb(245, 131, 131);
     padding: 30px;
     margin-right: 150px;
 }
 .lugar11{
-    display: block;
-    position: relative;
     float: right;
-    width: 300px;
-    height: 400px;
-    background-color: rgb(219, 155, 72);
     padding: 30px;
 }
 .lugar12{
-    display: block;
-    position: relative;
     float: right;
-    width: 300px;
-    height: 400px;
-    background-color: rgb(100, 72, 199);
     padding: 30px;
     margin-right: 120px;
 }

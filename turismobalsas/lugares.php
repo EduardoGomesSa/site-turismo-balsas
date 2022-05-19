@@ -16,46 +16,58 @@
         <article class="paginas">
             <div class="esquerda1">
                 <div class="padrao lugar1">
+                    <img src="_imagem/iteste.jpg" alt="Imagem do ponto turístico" class="foto-lugar">
                     <h1>lugar 1</h1>
                 </div>
                 <div class="padrao lugar2">
+                    <img src="_imagem/iteste.jpg" alt="Imagem do ponto turístico" class="foto-lugar">
                     <h1>lugar 2</h1>
                 </div>
             </div>
             <div class="padrao lugar3">
+                <img src="_imagem/iteste.jpg" alt="Imagem do ponto turístico" class="foto-lugar">
                 <h1>lugar 3</h1>
             </div>
             <div class="esquerda2">
                 <div class="padrao lugar4">
+                    <img src="_imagem/iteste.jpg" alt="Imagem do ponto turístico" class="foto-lugar">
                     <h1>lugar 4</h1>
                 </div>
                 <div class="padrao lugar5">
+                    <img src="_imagem/iteste.jpg" alt="Imagem do ponto turístico" class="foto-lugar">
                     <h1>lugar 5</h1>
                 </div>
             </div>
             <div class="padrao lugar6">
+                <img src="_imagem/iteste.jpg" alt="Imagem do ponto turístico" class="foto-lugar">
                 <h1>lugar 6</h1>
             </div>
             <div class="esquerda3">
                 <div class="padrao lugar7">
+                    <img src="_imagem/iteste.jpg" alt="Imagem do ponto turístico" class="foto-lugar">
                     <h1>lugar 7</h1>
                 </div>
                 <div class="padrao lugar8">
+                    <img src="_imagem/iteste.jpg" alt="Imagem do ponto turístico" class="foto-lugar">
                     <h1>lugar 8</h1>
                 </div>
             </div>
             <div class="padrao lugar9">
+                <img src="_imagem/iteste.jpg" alt="Imagem do ponto turístico" class="foto-lugar">
                 <h1>lugar 9</h1>
             </div>
             <div class="esquerda4">
                 <div class="padrao lugar10">
+                    <img src="_imagem/iteste.jpg" alt="Imagem do ponto turístico" class="foto-lugar">
                     <h1>lugar 10</h1>
                 </div>
                 <div class="padrao lugar11">
+                    <img src="_imagem/iteste.jpg" alt="Imagem do ponto turístico" class="foto-lugar">
                     <h1>lugar 11</h1>
                 </div>
             </div>
             <div class="padrao lugar12">
+                <img src="_imagem/iteste.jpg" alt="Imagem do ponto turístico" class="foto-lugar">
                 <h1>lugar 12</h1>
             </div>
         </article>

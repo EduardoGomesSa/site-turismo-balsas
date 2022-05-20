@@ -18,8 +18,8 @@
     <div class="menu">
         <nav>
             <ul>
-                <li><a href="./index.php">Principal</a></li>
-                <li><a href="./lugares.php">Lugares</a></li>
+                <li><a href="../index.php">Principal</a></li>
+                <li><a href="../lugares.php">Lugares</a></li>
             </ul>
         </nav>
     </div>

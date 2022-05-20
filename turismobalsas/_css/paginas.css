@@ -3,23 +3,25 @@
     padding: 20px 20px 20px 60px;
     background-color: darkmagenta;
 }
-.esquerda1{
-    display: block;
-    position: relative;
-    float: left;
-    background-color: greenyellow;
-}
 .padrao{
     display: block;
     position: relative;
     width: 300px;
     height: 400px;
     border-radius: 25px;
-    background-color: yellow;
+    border-bottom: 10px;
+    background-color: rgb(129, 221, 67);
 }
 .foto-lugar{
     width: 300px;
     height: 200px;
+}
+.esquerda1{
+    display: block;
+    position: relative;
+    float: left;
+    margin-bottom: 20px;
+    background-color: greenyellow;
 }
 .lugar1{  
     float: left;
@@ -39,6 +41,7 @@
     display: block;
     position: relative;
     float: left;
+    margin-bottom: 20px;
     background-color: greenyellow;
 }
 .lugar4{
@@ -59,6 +62,7 @@
     display: block;
     position: relative;
     float: left;
+    margin-bottom: 20px;
     background-color: rgb(223, 75, 186);
 }
 .lugar7{
@@ -79,6 +83,7 @@
     display: block;
     position: relative;
     float: left;
+    margin-bottom: 20px;
     background-color: greenyellow;
 }
 .lugar10{

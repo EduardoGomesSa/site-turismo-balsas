@@ -14,7 +14,15 @@
     <main>
         <?php require_once "../_issets/cabecalhopontos.php" ?>
             <article>
-                <h1>AABB</h1>
+                <div>
+                    <h1>Imagens</h1>
+                </div>
+                <div>
+                    <h1>Local</h1>
+                </div>
+                <div>
+                    <h1>Especificações</h1>
+                </div>
             </article>
         <?php require_once "../_issets/rodape.php" ?>
     </main>

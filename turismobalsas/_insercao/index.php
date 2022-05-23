@@ -7,6 +7,7 @@
     <title>Insercao de Dados</title>
 </head>
 <body>
+<!--
     <form action="" method="post" enctype="multipart/form-data">
         <fieldset>
             <legend>Local</legend>
@@ -39,6 +40,13 @@
             <p>Preco: <input type="number" name="" id=""></p>
         </fieldset>
             <p><input type="submit" value="Salvar"></p>
+    </form>
+-->
+
+    <form enctype="multipart/form-data" action="insercao.php" method="POST">
+        <p><label for="">Selecione o arquivo</label>
+    <input multiple name="arquivos[]" type="file"></p>
+    <button type="submit" name="upload">Enviar Arquivo</button>
     </form>
 </body>
 </html>

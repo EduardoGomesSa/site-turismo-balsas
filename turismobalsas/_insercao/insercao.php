@@ -26,9 +26,9 @@
         $deu_certo = move_uploaded_file($arquivo["tmp_name"], $path);
         if($deu_certo){
             $mysqli -> query("INSERT INTO imagem (nome, path) VALUES ('$nomeDoArquivo','$path')") or die($mysqli->error); 
+            $id = mysqli_insert_id($mysqli);
+            echo "O id inserido foi .... $id";
             echo "<p>Arquivo enviado com sucesso! </p>";
-            $id = $mysqli -> lastInsertId();
-            var_dump($id);
         }else
             echo "Falha ao enviar arquivo ao MySQL";
     }

@@ -1,19 +1,16 @@
 <?php
+    include_once("conexao.php");
 
-include_once("conexao.php");
+    //inserção dos locais
 
-    if(isset($_FILES) && count($_FILES) > 0){
-        echo "<pre>";
-        var_dump($_FILES);
-        echo "</pre>";
-        die();
-    }
-    
+
+
+    //inserção das imagens
     if(isset($_FILES["arquivos"])){
         //echo "Arquivo enviado";
         $arquivo = $_FILES["arquivos"];
         if($arquivo["error"])
-            die("Falha ao enviar arquivo");
+            die("Falha ao enviar arquivo PARTE 1");
         if($arquivo["size"]>2097152)
             die("arquivo muito grande! máximo 2MB");
         
@@ -30,8 +27,10 @@ include_once("conexao.php");
         if($deu_certo){
             $mysqli -> query("INSERT INTO imagem (nome, path) VALUES ('$nomeDoArquivo','$path')") or die($mysqli->error); 
             echo "<p>Arquivo enviado com sucesso! </p>";
+            $id = $mysqli -> lastInsertId();
+            var_dump($id);
         }else
-            echo "Falha ao enviar arquivo";
+            echo "Falha ao enviar arquivo ao MySQL";
     }
 
     $sql_query = $mysqli-> query("SELECT * FROM imagem") or die($mysqli->error);

@@ -7,22 +7,22 @@
     <title>Insercao de Dados</title>
 </head>
 <body>
-<!--
-    <form action="" method="post" enctype="multipart/form-data">
+    <form enctype="multipart/form-data" action="insercao.php" method="POST">
         <fieldset>
             <legend>Local</legend>
-            <p>Nome: <input type="text" name="" id=""></p>
-            <p>Tipo de acesso: <input type="text" name="" id=""></p>
-            <p>Dia de funcionamento: <input type="text" name="" id=""></p>
-            <p>Horário de funcionamento: <input type="text" name="" id=""></p>
-            <p>Tipo de local: <input type="text" name="" id=""></p>
-            <p>Descrição: <textarea name="" id="" cols="30" rows="10"></textarea></p>
+            <p>Nome: <input type="text" name="nome" id="" placeholder="ex: AABB"></p>
+            <p>Tipo de acesso: <input type="text" name="tipo_acesso" id="" placeholder="ex: gratuita"></p>
+            <p>Dia de funcionamento: <input type="text" name="dia_funcionamento" id="" placeholder="ex: segunda a sexta"></p>
+            <p>Horário de funcionamento: <input type="text" name="horario_funcionamento" id="" placeholder="ex: das 19:00 as 00:00"></p>
+            <p>Tipo de local: <input type="text" name="" id="tipo_local" placeholder="ex: parque"></p>
+            <p>Descrição: <textarea name="descricao" id="" cols="30" rows="10"></textarea></p>
         </fieldset>
 
         <fieldset>
             <legend>Imagem</legend>
-            <input type="hidden" name="MAX_FILE_SIZE" value="99999999"/>
-            <div><input name="imagem" type="file"/></div>
+        <p><label for="">Selecione o arquivo</label>
+            <input name="arquivos" type="file"></p>
+
         </fieldset>
 
         <fieldset>
@@ -40,13 +40,7 @@
             <p>Preco: <input type="number" name="" id=""></p>
         </fieldset>
             <p><input type="submit" value="Salvar"></p>
-    </form>
--->
 
-    <form enctype="multipart/form-data" action="insercao.php" method="POST">
-        <p><label for="">Selecione o arquivo</label>
-    <input multiple name="arquivos[]" type="file"></p>
-    <button type="submit" name="upload">Enviar Arquivo</button>
     </form>
 </body>
 </html>

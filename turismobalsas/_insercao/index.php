@@ -14,7 +14,7 @@
             <p>Tipo de acesso: <input type="text" name="tipo_acesso" id="" placeholder="ex: gratuita"></p>
             <p>Dia de funcionamento: <input type="text" name="dia_funcionamento" id="" placeholder="ex: segunda a sexta"></p>
             <p>Horário de funcionamento: <input type="text" name="horario_funcionamento" id="" placeholder="ex: das 19:00 as 00:00"></p>
-            <p>Tipo de local: <input type="text" name="" id="tipo_local" placeholder="ex: parque"></p>
+            <p>Tipo de local: <input type="text" name="tipo_local" id="tipo_local" placeholder="ex: parque"></p>
             <p>Descrição: <textarea name="descricao" id="" cols="30" rows="10"></textarea></p>
         </fieldset>
 

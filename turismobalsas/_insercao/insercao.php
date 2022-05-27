@@ -2,7 +2,16 @@
     include_once("conexao.php");
 
     //inserção dos locais
+    $nome = $_POST['nome'];
+    $tipoAcesso = $_POST['tipo_acesso'];
+    $dataFuncionamento = $_POST['dia_funcionamento']; 
+    $horarioFuncionamento = $_POST['horario_funcionamento'];
+    $tipoLocal = $_POST['tipo_local'];
+    $descricao = $_POST['descricao'];
 
+    $mysqli -> query("INSERT INTO Local (nome, descricao_local, tipo_acesso, data_funcionamento, horario_funcionamento, tipo_local)
+    VALUES ('$nome', '$descricao', '$tipoAcesso', '$dataFuncionamento', '$horarioFuncionamento', '$tipoLocal');");
+    $id = mysqli_insert_id($mysqli);
 
 
     //inserção das imagens
@@ -25,9 +34,8 @@
         $path = $pasta . $novoNomeDoArquivo . "." . $extensao;
         $deu_certo = move_uploaded_file($arquivo["tmp_name"], $path);
         if($deu_certo){
-            $mysqli -> query("INSERT INTO imagem (nome, path) VALUES ('$nomeDoArquivo','$path')") or die($mysqli->error); 
-            $id = mysqli_insert_id($mysqli);
-            echo "O id inserido foi .... $id";
+            $mysqli -> query("INSERT INTO imagem (nome, path, id_local) VALUES ('$nomeDoArquivo','$path','$id')") or die($mysqli->error); 
+            
             echo "<p>Arquivo enviado com sucesso! </p>";
         }else
             echo "Falha ao enviar arquivo ao MySQL";

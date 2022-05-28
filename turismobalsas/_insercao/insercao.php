@@ -13,6 +13,21 @@
     VALUES ('$nome', '$descricao', '$tipoAcesso', '$dataFuncionamento', '$horarioFuncionamento', '$tipoLocal');");
     $id = mysqli_insert_id($mysqli);
 
+    //inserção de serviços
+    $nomeServico = $_POST['nomeServico'];
+    $preco = $_POST['preco'];
+
+    $mysqli -> query("INSERT INTO servico (nomeServico, valor, id_local) VALUES ('$nomeServico', '$preco', '$id')");
+
+    //inserção do endereço
+    $cidade = $_POST['cidade'];
+    $bairro = $_POST['bairro'];
+    $rua = $_POST['rua'];
+    $numero = $_POST['numero'];
+    $referencia = $_POST['referencia'];
+
+    $mysqli -> query("INSERT INTO endereco (cidade, referencia, bairro, rua, numero, id_local)
+    VALUES ('$cidade', '$referencia', '$bairro', '$rua', '$numero', '$id');");
 
     //inserção das imagens
     if(isset($_FILES["arquivos"])){

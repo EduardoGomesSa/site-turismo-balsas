@@ -27,17 +27,17 @@
 
         <fieldset>
             <legend>Endereco</legend>
-            <p>Cidade: <input type="text" name="" id=""></p>
-            <p>Bairro: <input type="text" name="" id=""></p>
-            <p>Rua: <input type="text" name="" id=""></p>
-            <p>Numero: <input type="text" name="" id=""></p>
-            <p>Referência: <input type="text" name="" id=""></p>
+            <p>Cidade: <input type="text" name="cidade" id=""></p>
+            <p>Bairro: <input type="text" name="bairro" id=""></p>
+            <p>Rua: <input type="text" name="rua" id=""></p>
+            <p>Numero: <input type="text" name="numero" id=""></p>
+            <p>Referência: <input type="text" name="referencia" id=""></p>
         </fieldset>
 
         <fieldset>
             <legend>Serviços</legend>
-            <p>Nome: <input type="text" name="" id=""></p>
-            <p>Preco: <input type="number" name="" id=""></p>
+            <p>Nome: <input type="text" name="nomeServico" id=""></p>
+            <p>Preco: <input type="number" name="preco" id=""></p>
         </fieldset>
             <p><input type="submit" value="Salvar"></p>
 

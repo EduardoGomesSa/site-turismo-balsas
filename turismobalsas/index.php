@@ -14,7 +14,7 @@
         <?php require_once '_issets/cabecalho.php' ?>
         <article>
             <section class="imagem-principal">
-                <img src="_imagem/iteste.jpg" alt="foto teste">
+                <img src="_imagem/BEIRA RIO BALSAS (2).jpg" alt="foto expositiva">
             </section>
             <section class="texto-principal">
                 <p>Balsas é uma cidade em franco desenvolvimento. Situada a 800km da 

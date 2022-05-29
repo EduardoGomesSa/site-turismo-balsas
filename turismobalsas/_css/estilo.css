@@ -28,4 +28,15 @@ main{
     margin: 20px;
     text-indent: 30px;
     width: 80%;
+    font-family: 'Arial';
+    font-size: 15pt;
+}
+
+.nomeLocal{
+    text-align: center;
+}
+
+.detalhes img{
+    width: 20px;
+    height: 20px;
 }

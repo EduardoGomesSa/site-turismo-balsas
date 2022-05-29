@@ -21,7 +21,10 @@
             <ul>
                 <li><a href="index.php">Principal</a></li>
                 <li><a href="lugares.php">Lugares</a></li>
-                <li><a href="_pontos/aabb.php">Pontos Turísticos</a></li>
+                <li><a href="">Pontos Turísticos</a></li>
+                    <ul>
+                        <li><a href="_pontos/aabb.php">AABB</a></li>
+                    </ul>
             </ul>
         </nav>
     </div>
